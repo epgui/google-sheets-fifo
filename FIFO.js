@@ -136,7 +136,7 @@ const resolveFifoQueues_ = fifoQueues => Object.keys(fifoQueues).reduce(
     } = parseIdentifier_(identifier);
 
     const totalQuantity = reduceBatchQuantity_(fifoQueues[identifier]);
-    const avgPrice = reduceBatchCost_(fifoQueues[identifier]) / totalQuantity
+    const avgPrice = reduceBatchCost_(fifoQueues[identifier]) / totalQuantity;
 
     return [
       ...acc,
