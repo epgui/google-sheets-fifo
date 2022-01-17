@@ -151,7 +151,7 @@ const resolveFifoQueues_ = fifoQueues => Object.keys(fifoQueues).reduce(
       ],
     ];
   },
-  []
+  [],
 );
 
 const myPositions = rows => pipe(
